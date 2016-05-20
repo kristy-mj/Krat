@@ -1,1 +1,22 @@
+body {
+  font-family: Helvetica;
+  text-decoration: none;
+}
 
+.menu {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-family: caviar dreams;
+  letter-spacing: 4px;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+}
