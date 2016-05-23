@@ -6,12 +6,6 @@ nav {
   text-transform: uppercase;
 }
 
-a {
-  text-decoration: none;
-  color: #000;
-}
-
-
 .title {
   display: inline-block;
   width: 25%;
@@ -36,7 +30,8 @@ a {
 .menu a {
   display: inline-block;
   margin: 20px 10px 0px 40px;
-
+  text-decoration: none;
+  color: #000;
 }
 
 .menu a:hover {
