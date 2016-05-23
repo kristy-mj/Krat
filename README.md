@@ -1,1 +1,1 @@
-# Krat
+Krat website and hat builder app
