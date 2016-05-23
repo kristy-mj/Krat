@@ -1,6 +1,6 @@
 nav {
   width: 100%;
-  border-bottom: 1px solid #999;
+/*   border-bottom: 1px solid #999; */
   height: 105px;
   padding-top: 60px;
   text-transform: uppercase;
@@ -30,7 +30,6 @@ a {
   width: 100%;
   padding-top: 30px;
   margin: 0px;
-  line-height: 20px;
   letter-spacing: 2px;
 }
 
