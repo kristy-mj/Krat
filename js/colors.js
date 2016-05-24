@@ -1,4 +1,4 @@
-var colors = ['black', 'grey', 'white', 'indigo'];
+var colors = ['black', 'grey', 'white', 'indigo', 'yellow', 'green', 'orange', 'violet'];
 
 var swatches = document.getElementsByClassName('swatch');
 
@@ -9,6 +9,8 @@ for (var i = 0, n = colors.length; i<n; i++) {
   swatch.addEventListener('click', setSwatch);
   document.getElementById('colors').appendChild(swatch);
 }
+
+
 
 function setColor(color) {
   context.fillStyle = color;
