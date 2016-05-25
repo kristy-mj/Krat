@@ -1,7 +1,19 @@
+// var startX;
+// var startY;
+// var canvasWidth;
+// var drawingBoundTop;
+// var colorLayer;
+
 var pixelStack = [[startX], [startY]];
 
 while (pixelStack.length) {
-  var newPos, x, y, pixelPos, reachLeft, reachRight;
+  var newPos;
+  var x;
+  var y; 
+  var pixelPos;
+  var reachLeft; 
+  var reachRight;
+
   newPos = pixelStack.pop();
   x = newPos[0];
   y = newPos[1];
