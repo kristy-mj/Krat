@@ -1,4 +1,8 @@
-var colors = ['black', 'grey', 'white', 'indigo', 'yellow', 'green', 'orange', 'violet'];
+var canvas = document.getElementById('hatcanvas');
+var context = canvas.getContext('2d');
+
+
+var colors = ['black', 'grey', 'white', 'indigo', '#D9E021', '#0BFF66', 'cyan', 'violet'];
 
 var swatches = document.getElementsByClassName('swatch');
 

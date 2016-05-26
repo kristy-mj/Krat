@@ -5,10 +5,41 @@
   justify-content: center;
 }
 
-#hatcanvas {
-  width: 600px;
-  height: 750px;
+#hat {
+  width: 550px;
+  height: 700px;
   border: 1px solid black;
+  position: relative;
+}
+
+
+img {
+  position: absolute;
+}
+#bobble-btn {
+  z-index: 3;
+}
+#body-btn {
+  z-index: 2;
+}
+#brim-btn {
+  z-index: 1; 
+}
+
+#bobble {
+  z-index: 0;
+}
+#body {
+  z-index: 0;
+}
+#brim {
+  z-index: 0;
+}
+
+#hatcanvas {
+  /*width: 600px;
+  height: 750px;
+  border: 1px solid black;*/
 }
 
 .instructions {
