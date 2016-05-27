@@ -1,15 +1,41 @@
-
 function setBobbleColor() {
-	document.getElementById('bobble-btn').src = 'images/bobble_lime.png';
+	var image = document.getElementById('bobble');
+	image.src = 'images/bobble_load.png';
+	return true;
 }
-switch
 
-// var image = document.createElement('canvas');
-// 			canvas.setAttribute('width', canvasWidth);
-// 			canvas.setAttribute('height', canvasHeight);
-// 			canvas.setAttribute('id', 'canvas');
-// 			document.getElementById('canvasDiv').appendChild(canvas);
+function getColor() { 
+    var color = $('.swatch.active').css('backgroundColor');
+    // console.log (color);
+    return color;
+}
 
+	// if (color == 'rgb(217, 224, 33)' {
+	//     	console.log 'cyan';
+	// }
+// }
+
+// function changeColor () {
+// 	if (setBobbleColor == true && getColor == 'cyan') {
+// 	// img.src = 'images/bobble_cyan.png'
+// 	console.log ('yay');
+// }
+
+
+// 		document.getElementsByClassName('swatch active') == swatch.style.backgroundColor){
+// 	console.log ('Hi');
+// 	}
+// }
+
+
+ // switch ('color') {
+	// 	case'rgb(217, 224, 33)':
+	// 		image.src = 'images/bobble_lime.png';
+	// 		break;
+	// 	case 'rgb(0 255 255)':
+	// 		image.src = 'images/bobble_cyan.png';
+	// 		break;
+	// }
 
 
 // 1. Brim

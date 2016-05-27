@@ -45,7 +45,7 @@ img {
 .instructions {
   width: 250px;
   text-align: left;
-  padding: 20px;
+  padding: 30px;
 }
 
 #colors {
@@ -72,8 +72,8 @@ img {
   width: 50px;
   height: 20px;
   padding: 12px;
-  background-color: #555;
-  color: #fff;
+  border: 1px solid #555;
+  color: #444;
   border-radius: 3px;
   text-align: center;
 }

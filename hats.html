@@ -30,13 +30,13 @@
   <div class="main-box">
     <div class="hatcontainer">
       <div id="hat">
-        <img id="bobble-btn" src="images/bobble0.png" onclick="setBobbleColor('color')">
+        <img id="bobble-btn" src="images/bobble0.png" onclick="setBobbleColor()">
         <img id="body-btn" src="images/body0.png" onclick="setBodyColor('color')">
         <img id="brim-btn" src="images/brim0.png" onclick="setBrimColor('color')">
 
-        <img id="bobble" src="images/bobble.png">
-        <img id="body" src="images/body.png">
-        <img id="brim" src="images/brim.png">
+        <img id="bobble" src="images/bobble_default.png">
+        <img id="body" src="images/body_default.png">
+        <img id="brim" src="images/brim_default.png">
 
         <canvas id="hatcanvas">
         </canvas>
@@ -48,7 +48,7 @@
           Customise your hat by selecting different areas of the hat and choosing your colours.
         </p>
        
-        <div id="colors">
+        <div id="colors" onclick="getColor()">
 
         </div>
           
@@ -63,6 +63,7 @@
   </div>
 
 
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   <script src="js/jQuery.js" type="text/javascript"></script>
 <!--   <script src="js/hatBuilder.js" type="text/javascript"></script> -->
   <script src="js/hatimagebuilder.js" type="text/javascript"></script>

@@ -2,7 +2,7 @@ var canvas = document.getElementById('hatcanvas');
 var context = canvas.getContext('2d');
 
 
-var colors = ['black', 'grey', 'white', 'indigo', '#D9E021', '#0BFF66', 'cyan', 'violet'];
+var colors = ['#4D4D4D', '#CCC', '#D9E021', 'cyan'];
 
 var swatches = document.getElementsByClassName('swatch');
 
