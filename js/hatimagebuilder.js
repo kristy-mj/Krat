@@ -2,7 +2,7 @@ var image;
 
 $('#bobble-btn').click(function() {
 	image = document.getElementById('bobble');
-	image.src = 'images/bobble/bobble_dgrey.png';
+
 	$('#colors').click(function() {
 	var color = $('.swatch.active').css('backgroundColor');
 	switch (color) {
@@ -36,7 +36,6 @@ $('#bobble-btn').click(function() {
 
 $('#body-btn').click(function() {
 	image = document.getElementById('body');
-	image.src = 'images/body/body_dgrey.png';
 	$('#colors').click(function() {
 	var color = $('.swatch.active').css('backgroundColor');
 	switch (color) {
@@ -70,7 +69,6 @@ $('#body-btn').click(function() {
 
 $('#brim-btn').click(function() {
 	image = document.getElementById('brim');
-	image.src = 'images/brim/brim_dgrey.png';
 	$('#colors').click(function() {
 	var color = $('.swatch.active').css('backgroundColor');
 	switch (color) {
